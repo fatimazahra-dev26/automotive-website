@@ -1,0 +1,26 @@
+ #intro{
+    background-image: url("../images/688c30999d47a1598d157268b123e52f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    background-position: center;
+}
+#button{
+    animation-name: btn;
+    animation-duration: 4s;
+    
+}
+@keyframes btn {
+    from{
+       background: black;
+    }
+    to{
+        background: rgba(249, 96, 216, 0.676);
+       
+    }
+    
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid red
+}
